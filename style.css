@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.divmain{
+    background:url(img/jpg.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    width: 100%;
+    height: 100vh;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.h1frist{
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 40px;
+    color: rgb(255, 145, 0);
+    
+}
+.h1frist:hover{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.ul-line{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-weight: bold;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:rgb(255, 255, 255) ;
+   
+}
+ul li a:hover{
+    font-size: 18px;
+    color:  rgb(255, 145, 0);
+
+}
+.text-s{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.input-text{
+    width: 220px;
+    height: 30px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+.input-text:hover{
+    width: 240px;
+    height: 33px;
+}
+.button-s{
+    width: 150px;
+    height: 33px;
+    margin: 2px;
+    padding: 1px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(228, 15, 15);
+    color: white;
+   border: none;
+   border-radius: 2px;
+}
+.button-s:hover{
+    color:  rgb(255, 255, 255);
+    width: 160px;
+    height: 35px;
+    background: rgb(255, 145, 0);
+
+}
+.my-Developer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.web{
+    margin-top: 100px;
+    margin-right: 20px
+}
+.my{
+    font-size: 100px;
+    color: rgb(255, 145, 0);
+    margin-right: 130px;
+}
+.I{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.d{
+    font-size: 50px;
+    color: rgb(255, 145, 0);
+}
+.L{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.E{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.glass{
+    width: 320px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+  }
+  
+  .glass h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 145, 0);
+  }
+  .use{
+    width: 320px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    
+    
+  }
+  .use:hover{
+    width: 330px;
+    height: 45px;
+
+  }
+  .pass{
+    width: 320px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .pass:hover{
+    width: 330px;
+    height: 45px;
+
+  }
+  .remember{
+    margin-top: 30px;
+    font-size: 16px;
+    
+  }
+  .remember:hover{
+    font-size: 18px;
+  }
+  .forgot{
+    margin-left: 55px;
+    font-weight: 700;
+   
+  }
+
+  .btn{
+    width: 320px;
+    height: 40px;
+    margin-top: 25px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600px ;
+    border-radius: 30px;
+  }
+  .btn:hover{
+    width: 330px;
+    height: 45px;
+    background: rgb(255, 145, 0);
+
+  }
+  .register{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+  .register:hover{
+    font-size: 23px;
+  }
